@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header style */
+.nav{
+    border: 0.5px solid rgba(245, 222, 179, 0.957);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.125);
+
+}
+.nav-bar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     padding: 2.5em 0;
+    
+    align-items: center;
+}
+
+.game-icon{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.nav-pages ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    align-items: center;
+}
+.nav-pages a{
+    text-decoration: none;
+
+}
+.game-icon h1{
+    font-size: 2em;
+    font-weight:bolder;
+}
+span{
+    color:#ff42a5;
+}
+
+button{
+    padding: 5px 20px;
+    background-color:#3c354f33;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    
+}
+.fa-brands{
+    font-size: 20px;
+    padding: 4px;
+    padding-top: 5px;
+   
+}
+ .icon{
+    color: red;
+ }
+ /* nav end */
+
+
+ /* head-banner */
+.banner-text h1{
+    color: indigo;
+    font-size: 4em;
+    background-image: linear-gradient(to bottom,#f94877, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    padding: 10px 0px;
+}
+.banner-text h2{
+    font-size: 2.5em;
+}
+.banner-text p{
+    padding: 5px 0;
+}
+.banner{
+    background-color:rgba(255, 228, 196, 0.432);
+} 
+.head-banner{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.banner-img{
+    width: 50%;
+}
+.btn-1{
+   padding: 10px 25px;
+   background-color:#ff42a5;
+   border: 0;
+   border-radius: 10%;
+
+}
+.btn-2{
+    padding: 10px 25px;
+   background-color:aquamarine;
+   border: 0;
+   border-radius: 10%;
+   margin: 10px;
+}
+/* main section */
+.online-game{
+    text-align: center;
+    font-size: large;
+    font-weight:bold;
+    margin-top: 3em;
+}
+.online-game p{
+    padding: 1em;
+    
+}
+.online-game span{
+    background-image: linear-gradient(to bottom,#f94877, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.game-pic{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    gap: 14px;
+    
+}
+.game-pic p{
+    padding: 15px 0;
+    line-height: 25px;
+}
+/* .overlay{
+    position:absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: #0B0223;
+    cursor: pointer; */
+
+
+
+
+/* play game */
+
+.play-game{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5em;
+    align-items: center;
+}
+.play-text{
+    margin-left: 8em;
+    text-align: right;
+}
+.play-text .h1{
+    font-size: 2.5em;
+    font-weight:700 ;
+    color: #f94877;
+}
+.play-text .h2{
+    padding: .3em 0;
+   
+}
+.play-text p{
+     padding: 20px 0;
+     line-height: 20px;
+}
+.play-img{
+    width: 40%;
+    margin-right: 2em;
+
+}
+.over-pic{
+    text-align: center;
+    align-items: center;
+   
+}
+.over-pic img{
+    border: .5px solid red;
+    border-radius: 5px;
+    margin-top: -200px;
+    margin-right: -220px;
+    position: static;
+}
+/* button section */
+
+ 
+  .button-section{
+    background-color: rgba(255, 228, 196, 0.39);
+    margin-top: 2em;
+ }
+ .button-div{
+     display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+     margin:auto;
+     text-align: center;
+     padding: 2em;
+ }  
+
+ .multipul-btn{
+    padding: 5px 10px;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+    background-color: rgba(240, 248, 255, 0.376);
+    text-align: center;
+ }
+ .multipul-btn:hover{
+    border: 1px solid #f94877;
+    color: #ff42a5;
+ }
+
+
+ /* footer */
+ .footer-section{
+   
+    padding: 100px 0;
+    background-color: #0B0223;
+ }
+ .footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+ }
+
+ .footer p{
+    font-size: 2em;
+    color: white;
+ }
+ .class-foot{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    list-style: none;
+    padding: 2em;
+    
+    
+ }
+ .class-foot a{
+    text-decoration: none;
+    color: white;
+ }
+ .link{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    list-style: none;
+   
+    
+    
+ }
+   .link i{
+    font-size: 2em;
+    color: aliceblue;
+   } 
+.link2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    list-style: none;
+    padding: 2em;
+}
+.link2 a{
+    text-decoration: none;
+    color: white;
+ }
+ .copyright{
+    text-align: center;
+    color: antiquewhite;
+ }
+
+
+
+
+
+ 
+ /* responsive */
+
+/* tab view */
+
+/* mobile view */
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+    .nav-bar {
+        flex-direction: column;
+    }
+
+
+     .nav-pages ul{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .head-banner{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-img{
+        width: auto;
+        margin: 20px 0;
+    }
+    /* play game */
+     .online-game h1{
+        font-size: 1.5em;
+    }
+    .online-game p{
+        font-size: 15px;
+    }
+    .game-pic{
+        flex-direction: column;
+        text-align: center;
+    }
+    .game-pic p{
+        padding-top: 5px;
+    }  
+    .play-game{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .play-text{
+        margin: auto;
+        text-align: center;
+    }
+    .play-img{
+        width: auto;
+        margin: auto;
+    }
+    .over-pic img{
+           width: 100px;
+           height: 100px;
+    }
+    .button-div{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .class-foot{
+        flex-direction: column;
+    }
+}
