@@ -307,14 +307,7 @@ button{
     color: antiquewhite;
  }
 
-.play-game{
-    width: auto;
-    flex-direction: column;
-}
-.play-text{
-    margin: auto;
-    text-align: center;
-}
+
 .button-div{
     width: auto;
     padding: 0;
@@ -345,6 +338,15 @@ button{
         width: 100px;
         height: 100px;
  }
+ 
+ .play-game{
+    width: auto;
+    flex-direction: column;
+}
+.play-text{
+    margin: auto;
+    text-align: center;
+}
     
 }
 
