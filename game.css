@@ -139,7 +139,10 @@ button{
     padding: 15px 0;
     line-height: 25px;
 }
-/* .overlay{
+.game-img{
+    position: relative;
+}
+ .content{
     position:absolute;
     top: 0;
     left:0;
@@ -147,9 +150,19 @@ button{
     bottom: 0;
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
-    background: #0B0223;
-    cursor: pointer; */
-
+    background: #0b022332;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .content:hover{
+    opacity: 1;
+    color: white;
+    font-size: 2em;
+ }
 
 
 
