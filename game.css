@@ -160,8 +160,11 @@ button{
  }
  .content:hover{
     opacity: 1;
-    color: white;
+    color:#ff42a5;
     font-size: 2em;
+    border-radius: 5%;
+    margin-bottom: 2.5em;
+   
  }
 
 
@@ -216,22 +219,36 @@ button{
   .button-section{
     background-color: rgba(255, 228, 196, 0.39);
     margin-top: 2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding-left: 2em;
  }
  .button-div{
      display: flex;
      flex-wrap: wrap;
-     width: 90%;
-     margin:auto;
+     width: 80%;
+    
+     justify-content: center;
+     align-items: center;
+     margin: 0em 5em ;
+     
+    
      text-align: center;
-     padding: 2em;
+     
+     
+     
  }  
 
  .multipul-btn{
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 1em;
     display: flex;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 20%;
     background-color: rgba(240, 248, 255, 0.376);
     text-align: center;
  }
@@ -281,6 +298,7 @@ button{
     gap: 1em;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
    
     
     
@@ -297,6 +315,7 @@ button{
     justify-content: center;
     list-style: none;
     padding: 2em;
+    flex-wrap: wrap;
 }
 .link2 a{
     text-decoration: none;
@@ -346,6 +365,13 @@ button{
 .play-text{
     margin: auto;
     text-align: center;
+}
+.button-section{
+   height: auto;
+   padding-left: 0px;
+}
+.button-div{
+    margin: auto;
 }
     
 }
@@ -416,7 +442,15 @@ button{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .button-section{
+        height: auto;
+        padding-left: 0px;
+    }
     .class-foot{
         flex-direction: column;
+    }
+    
+    .copyright{
+        font-size: small;
     }
 }
